@@ -1,0 +1,226 @@
+
+body {
+    background-image: url("images/srars.jpg");
+    background-size: contain;
+    margin: 0;
+    text-align: center;
+    font-family: ;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo-img {
+    position: absolute;
+    top: 70px;
+    right: 200px;
+
+}
+
+.chapter {
+    width: 460px;
+    
+    position: absolute;
+    
+}
+
+.ch1 {
+    top: 700px;
+    left: 200px;
+    text-align: right ;
+}
+
+.ch2 {
+    top: 1000px;
+    right: 200px;
+    text-align: right ;
+
+}
+
+.ch3 {
+    top: 1300px;
+    left: 200px;
+    text-align: left ;
+
+}
+
+.flex-div-mid {
+    background-color: #2F0F5D;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    float: right;
+}
+
+.flex-div-bot {
+    background-color: #2F0F5D;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    float: left;
+}
+
+.emoji-pic {
+    width: 100px;
+
+}
+
+hr {
+    width: 75%;
+    border-style: none;
+    background-color: #F5F3C150;
+    height: 3px;
+    box-shadow: 0px 0px 10px #F5F3C1;
+}
+
+.hr1 {
+    margin-top: 300px;
+
+}
+
+.hr2 {
+    margin-top: 600px;
+
+}
+
+footer {
+    position: absolute;
+    top: 1500px;
+}
+
+
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #0EA293;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0;
+
+    color: #27E1C1;
+}
+
+a {
+    text-decoration: none;
+    color: #0EA293;
+}
+
+a:hover {
+    color: #27E1C1;
+}
+
+.p-hover {
+ color: #0EA293;
+}
+
+.p-hover:hover {
+    color: #27E1C1;
+}
+
+.top {
+    padding-top: 50;
+    padding-bottom: 300px;
+}
+
+
+@media (max-width: 900px) {
+
+    .logo-img {
+        position: absolute;
+        top: 70px;
+        right: 00px;
+        width: 200px;
+    
+    }
+
+    .hr1 {
+        margin-top: 200px;
+    
+    }
+    
+    .hr2 {
+        margin-top: 500px;
+    
+    }
+
+    .chapter {
+        width: 200px;
+        
+        position: absolute;
+        
+    }
+    
+    .ch1 {
+        top: 600px;
+        left: 30px;
+    }
+    
+    .ch2 {
+        top: 800px;
+        right: 30px;
+    
+    }
+    
+    .ch3 {
+        top: 1050px;
+        left: 30px;
+    
+    }
+    
+    .flex-div-mid {
+        height: 50px;
+        width: 50px;
+    }
+    .float-l {
+        float: left;
+    }
+    
+    .flex-div-bot {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .emoji-pic {
+        width: 30px;
+    
+    }
+
+    footer {
+        position: absolute;
+        top: 1200px;
+    }
+    
+    
+    
+    h2 {
+        margin-top: 0;
+        font-size: 16px;
+        margin-bottom: 5px;
+        color: #0EA293;
+        font-family: 'Noto Sans Hebrew', sans-serif;
+    }
+    
+    p {
+        font-size: 14px;
+        margin: 0;
+    
+        color: #27E1C1;
+    }
+    
+    span {
+        display: none;
+    }
+    
+    .phone {
+        margin-top: 10px;
+    }
+    
+}
