@@ -194,8 +194,8 @@ a:hover {
         justify-content: center;
         border-radius: 50%;
         float: none;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
     
     .flex-div-bot {
@@ -233,7 +233,7 @@ a:hover {
     }
     
     .hr2 {
-        margin-top: 20px;
+        margin-top: 50px;
         margin-bottom: 20px;
     
     }
